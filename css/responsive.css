@@ -1,0 +1,334 @@
+/* =========================================================
+   DIGI LEARN
+   Responsive Design
+   ========================================================= */
+
+
+/* =========================
+   TABLET
+   ========================= */
+
+@media (max-width: 900px) {
+
+  .app-shell {
+
+    width: min(
+      calc(100% - 32px),
+      720px
+    );
+
+  }
+
+
+  .big-card-grid {
+
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+  }
+
+
+  .class-selection-grid {
+
+    grid-template-columns:
+      repeat(3, minmax(0, 1fr));
+
+  }
+
+
+  .hero {
+
+    padding: 34px;
+
+  }
+
+}
+
+
+/* =========================
+   MOBILE
+   ========================= */
+
+@media (max-width: 600px) {
+
+  body {
+
+    font-size: 14px;
+
+  }
+
+
+  .app-shell {
+
+    width: calc(100% - 24px);
+
+    padding-top: 16px;
+
+    padding-bottom: 100px;
+
+  }
+
+
+  /* HERO */
+
+  .hero {
+
+    min-height: 185px;
+
+    padding: 26px 22px;
+
+    border-radius: 24px;
+
+    margin-bottom: 20px;
+
+  }
+
+
+  .hero h1 {
+
+    font-size: 29px;
+
+  }
+
+
+  .hero p {
+
+    font-size: 14px;
+
+  }
+
+
+  .hero-small-text {
+
+    font-size: 9px;
+
+  }
+
+
+  .hero-avatar {
+
+    width: 72px;
+
+    height: 72px;
+
+    border-radius: 22px;
+
+    font-size: 38px;
+
+  }
+
+
+  /* SECTIONS */
+
+  .section-title {
+
+    margin-top: 27px;
+
+    margin-bottom: 13px;
+
+  }
+
+
+  .section-title h2 {
+
+    font-size: 21px;
+
+  }
+
+
+  .section-kicker {
+
+    font-size: 9px;
+
+  }
+
+
+  /* CARDS */
+
+  .big-card-grid {
+
+    grid-template-columns: 1fr;
+
+    gap: 11px;
+
+  }
+
+
+  .big-card {
+
+    min-height: 86px;
+
+    padding: 15px;
+
+    border-radius: 16px;
+
+  }
+
+
+  .big-card-icon {
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 14px;
+
+    font-size: 25px;
+
+  }
+
+
+  .big-card-title {
+
+    font-size: 15px;
+
+  }
+
+
+  .big-card-description {
+
+    font-size: 12px;
+
+  }
+
+
+  /* INFO CARD */
+
+  .info-card {
+
+    padding: 18px;
+
+    border-radius: 17px;
+
+  }
+
+
+  .info-title {
+
+    font-size: 14px;
+
+  }
+
+
+  .info-icon {
+
+    width: 36px;
+
+    height: 36px;
+
+  }
+
+
+  /* CLASS GRID */
+
+  .class-selection-grid {
+
+    grid-template-columns:
+      repeat(2, minmax(0, 1fr));
+
+    gap: 10px;
+
+  }
+
+
+  .class-card {
+
+    min-height: 105px;
+
+    border-radius: 16px;
+
+  }
+
+
+  /* CHALLENGE */
+
+  .challenge-reward {
+
+    font-size: 12px;
+
+  }
+
+
+  /* CHIPS */
+
+  .chip-row {
+
+    margin-right: -12px;
+
+    padding-right: 12px;
+
+  }
+
+}
+
+
+/* =========================
+   SMALL PHONES
+   ========================= */
+
+@media (max-width: 380px) {
+
+  .hero {
+
+    padding: 22px 18px;
+
+  }
+
+
+  .hero h1 {
+
+    font-size: 25px;
+
+  }
+
+
+  .hero-avatar {
+
+    width: 62px;
+
+    height: 62px;
+
+    font-size: 32px;
+
+  }
+
+
+  .big-card {
+
+    padding: 13px;
+
+  }
+
+
+  .big-card-icon {
+
+    width: 45px;
+
+    height: 45px;
+
+    font-size: 22px;
+
+  }
+
+}
+
+
+/* =========================
+   REDUCED MOTION
+   ========================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+  *,
+  *::before,
+  *::after {
+
+    scroll-behavior: auto !important;
+
+    transition-duration: 0.01ms !important;
+
+    animation-duration: 0.01ms !important;
+
+  }
+
+}
