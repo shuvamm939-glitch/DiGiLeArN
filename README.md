@@ -2,7 +2,7 @@
 
 ### Open-Source Learning Platform for Class 1–5
 
-DIGI Learn is an open-source educational web application built by **Eren × Thunderzz**. It is designed to provide a simple and structured digital learning experience for students from Class 1 to Class 5.
+DIGI Learn is an open-source educational web application built by [@Eren](https://github.com/shuvamm939-glitch) × [@Thunderzzz](https://github.com/thunderzz12) . It is designed to provide a simple and structured digital learning experience for students from Class 1 to Class 5.
 
 ## Features
 
