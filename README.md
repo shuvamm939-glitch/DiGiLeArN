@@ -20,29 +20,7 @@ DIGI Learn is an open-source educational web application built by **Eren × Thun
 
 ## App Roadmap
 
-```text id="q7m3kx"
-Project Foundation
-        ↓
-UI & CSS Design
-        ↓
-Class & Subject System
-        ↓
-Lectures & Learning Content
-        ↓
-Language System
-        ↓
-Pomodoro & Study Tools
-        ↓
-XP, Progress & Leaderboard
-        ↓
-Study Together
-        ↓
-Backend & Authentication
-        ↓
-Teacher & Admin System
-        ↓
-Testing & Deployment
-```
+![photo](Assets/image/photo.png)
 
 ## Current Status
 
